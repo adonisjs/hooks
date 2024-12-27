@@ -139,7 +139,7 @@ await runner.cleanup()
 
 > **Note**: The `runner.cleanup` method is idempotent. Therefore you can call it multiple times, yet it will run the underlying cleanup methods only once.
 
-## Run without hook handlers
+## Exclude certain hook handlers
 
 You can exclude certain hook handlers from executing using the `without` method.
 
